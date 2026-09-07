@@ -87,7 +87,7 @@ One stack, zero custom JS, several quiet helpers.
   chapters), core patterns (4), HTTP layer (5), production (5), advanced (7),
   and reference (4) - Thai prose over untouched code.
 - **Glossaries** - `GLOSSARY.md` locks the vocabulary (handler = แฮนด์เลอร์,
-  middleware = มิดเดิลแวร์, newtype = นิวนิวไทป์, typestate = ไทป์สเตต), so
+  middleware = มิดเดิลแวร์, newtype = นิวไทป์, typestate = ไทป์สเตต), so
   chapter nine agrees with chapter two.
 - **Verifies** - `scripts/verify-translation.ps1` diffs every code block,
   heading level, and link target against upstream

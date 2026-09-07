@@ -14,11 +14,11 @@
 | layer | เลเยอร์ | ชั้นของสถาปัตยกรรม |
 | dependency | ดีเพนเดนซี | |
 | dependency rule | กฎของดีเพนเดนซี | ทิศทางของดีเพนเดนซีไหลเข้าหาโดเมน |
-| crate | ครีต | |
+| crate | เครต | |
 | workspace | เวิร์กสเปซ | Cargo workspace |
-| module | โมดูล | |
+| module | โมดูล | Rust module (`mod`) |
 | project structure | โครงสร้างโปรเจกต์ | |
-| single-crate layout | โครงสร้างครีตเดียว | |
+| single-crate layout | โครงสร้างเครตเดียว | |
 | entry point | จุดเริ่มต้น | ไฟล์ `main.rs` |
 | port | พอร์ต | อินเทอร์เฟซที่โดเมนกำหนด (trait) |
 | adapter | อะแดปเตอร์ | การนำพอร์ตไปปฏิบัติจริง |
@@ -29,7 +29,8 @@
 | domain modeling | การสร้างแบบจำลองโดเมน | |
 | domain entity | เอนทิตีของโดเมน | |
 | value object | วัตถุค่า (value object) | |
-| newtype | นิวนิวไทป์ (newtype) | แพตเทิร์นการห่อชนิดข้อมูล |
+| newtype | นิวไทป์ (newtype) | แพตเทิร์นการห่อชนิดข้อมูลเพื่อสร้าง type ใหม่ |
+| invariant | เงื่อนไขคงสภาพ (invariant) | กฎความถูกต้องที่ต้องเป็นจริงเสมอในโดเมน |
 | type system | ระบบชนิดข้อมูล | |
 | trait | เทรต | |
 | trait-based abstraction | การแยกชั้นเชิงนามธรรมด้วยเทรต | |
@@ -166,7 +167,7 @@
 
 ## หลักการทั่วไป
 
-- ชื่อเครื่องมือ คำสั่ง CLI ชื่อครีต ชื่อไลบรารี ชื่อ struct/ฟังก์ชัน และ URL **ไม่แปล** เช่น `axum`, `sqlx`, `tower`, `#[tokio::main]`, `AppState`, `ValidatedJson`, `DebugHandler`
+- ชื่อเครื่องมือ คำสั่ง CLI ชื่อเครต ชื่อไลบรารี ชื่อ struct/ฟังก์ชัน และ URL **ไม่แปล** เช่น `axum`, `sqlx`, `tower`, `#[tokio::main]`, `AppState`, `ValidatedJson`, `DebugHandler`
 - โค้ดทุกบล็อก (``` ... ```) เก็บไว้ตามต้นฉบับทุกตัวอักษร รวมถึงคอมเมนต์ภายในโค้ด
 - ลิงก์ (ทั้ง inline และ reference-style) คง path เดิม เพื่อให้ mdbook ยัง build ได้
 - ชื่อตัวเลือก/แฟล็ก CLI อ้างถึงด้วยชื่อเดิมเสมอ เช่น `features = ["full"]`, `#[derive(Serialize)]`
