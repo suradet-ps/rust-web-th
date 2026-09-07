@@ -31,7 +31,7 @@ jobs:
       with:
         repository: gruberb/bulletproof-rust-web
         path: bulletproof-rust-web
-        depth: 1
+        fetch-depth: 1
         persist-credentials: false
     - name: Verify translation vs upstream
       shell: pwsh
