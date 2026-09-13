@@ -132,8 +132,8 @@ waiting to happen.
 **Where this artifact is heading**
 
 ```
-P1 ▸ SUMMARY + introduction, architecture ──────────────────────────── ▸ sealed
-P2 ▸ core patterns, HTTP layer ─────────────────────────────────────── ▸ sealed
+P1 ▸ SUMMARY + introduction, architecture ───────────────────────────── ▸ sealed
+P2 ▸ core patterns, HTTP layer ──────────────────────────────────────── ▸ sealed
 P3 ▸ production, advanced, reference ────────────────────────────────── ▸ sealed
 P4 ▸ glossary, link verification, mdbook build, CI deploy ───────────── ▸ sealed
 ```
