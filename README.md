@@ -25,7 +25,7 @@ the upstream repo file-for-file, and the templates ship verbatim. Built for the
 Thai-speaking student of Rust web development:
 [suradet-ps.github.io/rust-web-th](https://suradet-ps.github.io/rust-web-th/).
 
-| แปลครบ 30 บท ▣ | Glossary ▣ | ลิงก์ 538/538 ▣ | Build ผ่าน ▣ |
+| 30 chapters translated ▣ | Glossary ▣ | Links 538/538 ▣ | Build passing ▣ |
 |---|---|---|---|
 
 *v1.0.0 - translation, glossary, verification, and the static build are all
@@ -86,8 +86,8 @@ One stack, zero custom JS, several quiet helpers.
 - **Translates** - the complete guide: introduction, architecture (4
   chapters), core patterns (4), HTTP layer (5), production (5), advanced (7),
   and reference (4) - Thai prose over untouched code.
-- **Glossaries** - `GLOSSARY.md` locks the vocabulary (handler = แฮนด์เลอร์,
-  middleware = มิดเดิลแวร์, newtype = นิวไทป์, typestate = ไทป์สเตต), so
+- **Glossaries** - `GLOSSARY.md` locks the vocabulary (handler, middleware,
+  newtype, typestate - one Thai spelling per term), so
   chapter nine agrees with chapter two.
 - **Verifies** - `scripts/verify-translation.ps1` diffs every code block,
   heading level, and link target against upstream
@@ -153,8 +153,8 @@ files (30 chapters + `SUMMARY.md`), and the link checker must report
 
 ```
   ─────────────────────────────────────────
-   ทุกแอปพลิเคชันมีแฮนด์เลอร์แรกของมัน
-   ทุกหนังสือมีหน้าแรกของมัน
+   Every application has its first handler
+   Every book has its first page
   ─────────────────────────────────────────
 ```
 
